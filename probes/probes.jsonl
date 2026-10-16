@@ -1,0 +1,16 @@
+{"input": "[]", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "[[", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "}{", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{]", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{ }", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{[]}", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{}[]", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "([{}({}[])])", "expect": true, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{[)][]}", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "([{])", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "[({}])", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{}[", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "[]]", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": ")()", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
+{"input": "{)()", "expect": false, "raised": false, "task": "matching-brackets", "lang": "php"}
